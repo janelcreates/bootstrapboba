@@ -1,0 +1,130 @@
+.navbar .navbar-nav .nav-link:hover {
+    background-color: #F5F2EA;
+    color: #6C4A3F;
+    height: 70px;
+
+    
+  }  
+.navbar .navbar-nav .nav-link {
+  padding: 0.6em;
+  transition: all 0.5s;
+  height: 70px;
+  font-weight: bold;
+  
+}
+.navbar .navbar-brand {
+  padding: 0 0.6em;
+  font-weight: bold;
+}
+
+.jumbotron-fluid h1 {
+  color:#6C4A3F;
+  font-family: 'Arya', sans-serif;
+  letter-spacing: 10px;
+  background-color: white;
+}
+
+.first {
+  position: relative;
+}
+
+
+
+.mission h3 {
+  font-family: 'Arya', sans-serif;
+}
+.btn-primary {
+  background-color: #F5F2EA;
+}
+
+body {
+  background-color: #D0C7C2;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.cards {
+  margin: 0 auto;
+  max-width: 1000px;
+  display: grid; 
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  font-family: sans-serif;
+
+}
+
+.card__content > p:first-of-type {
+  margin-top: 0;
+}
+
+.card__content > p:last-of-type {
+  margin-top: 0;
+}
+
+.card {
+  box-shadow: 0 0 3px rgba(0,0,0, 0.1);
+}
+
+.card__image {
+  width: 100%;
+  display: block;
+}
+
+.card__content {
+  line-height: 1.5;
+  font-size: 0.9em;
+  padding: 15px;
+  background: #fafafa;
+}
+
+.card__info {
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background:pink;
+  color:dimgray;
+  font-weight: bold;
+  font-size: 0.8em;
+  border-bottom: 2px solid #896B60;
+}
+
+.card__link {
+  color: #64968c;
+  text-decoration: none;
+}
+
+.card__link hover {
+  text-decoration: underline;
+}
+
+footer {
+	background-color:#6C4A3F;
+	position: absolute;
+	width: 100%;
+	height: fit-content;
+}
+
+footer ul li {
+	display: inline-block;
+	list-style: none;
+	
+}
+
+footer p {
+	float: left;
+}
+
+footer a,
+footer p {
+  font-family:'Arya', sans-serif;
+	color:#fff;
+	vertical-align: middle;
+
+
+}
